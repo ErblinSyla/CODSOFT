@@ -1,0 +1,56 @@
+.form-section {
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #96C9F4;
+}
+
+.form-div {
+    border: 4px solid #4E31AA;
+    background-color: #D1E9F6;
+    border-radius: 15px;
+    padding: 25px 50px 50px 50px;
+    display: block;
+    width: 25%;
+}
+
+.label-field {
+    margin-top: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+}
+
+.field {
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    border: 3px solid #3795BD;
+}
+
+.field:focus {
+    border: 3px solid red;
+}
+
+.field-textarea {
+    height: 12vh;
+}
+
+.form-div button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form-div {
+        width: 75%;
+    }
+}

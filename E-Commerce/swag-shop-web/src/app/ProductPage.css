@@ -1,0 +1,61 @@
+.product-row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.card.product {
+    height: 420px;
+    margin: 25px;
+}
+
+div.card.product h4 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+div.card.product p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+div.card img {
+    width: 100%;
+}
+
+div.card-block {
+    text-align: center;
+}
+
+.view-btn {
+    margin: auto;
+    display: block;  
+}
+
+.product-section {
+    text-align: center;
+    padding-top: 2%;
+    min-height: 90vh;
+    background-color: #D1E9F6;
+}
+
+.product-category {
+    text-align: left;
+    padding: 1% 0 0 4%;
+}
+
+.product-category h4 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.category-filter select {
+    width: 200px;
+    height: 40px;
+    border: 3px solid #3795BD;
+    border-radius: 7px;
+}
+
+.category-filter select:focus {
+    border: 3px solid red;
+}

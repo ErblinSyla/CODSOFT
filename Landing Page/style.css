@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    font-family: sans-serif, serif;
+    line-height: 1.5;
+}
+
+.container {
+    height: 100vh;
+    background-color: #F8EDE3;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* NAV BAR */
+
+.logo h1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #B0C5A4;
+    text-shadow: 5px 5px 10px black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #333;
+    position: fixed;
+    width: 90%;
+    height: 9vh;
+    background: linear-gradient(30deg, #522258, #C63C51);
+}
+
+.navbar .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links ul li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links ul li a {
+    text-decoration: none;
+    color: #D0B8A8;
+    transition: 0.3s ease color;
+    font-size: 1.3rem;
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-right: 25px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.navbar .nav-links ul li a:hover {
+    color: #F8EDE3;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color: #D0B8A8;
+    cursor: pointer;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* WALLPAPER */
+
+.wallpaper-img {
+    height: 100vh;
+    background-color: purple;
+    background: linear-gradient(45deg, 
+        #EB3678, #FB773C);
+    text-align: right;
+    display: flex;
+}
+
+.wallpaper-intro {
+    padding: 50px;
+}
+
+.wallpaper-intro h1 {
+    color: wheat;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: "Acme", sans-serif;
+    text-shadow: 5px 5px 10px #522258;
+}
+
+.wallpaper-line {
+    height: 300px;
+    width: 4px;
+    border-radius: 10px;
+    background-color: #522258;
+    float: right;
+}
+
+.wallpaper-btn {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #522258;
+    color: #D0B8A8;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    font-family: "Oswald", sans-serif;
+    box-shadow: 2px 2px 5px 1px #522258;
+}
+
+.wallpaper-btn:hover {
+    background-color: transparent;
+    color: #F8EDE3;
+    border: 2px solid #522258;
+    cursor: pointer;
+}
+
+.wallpaper-secondary-image {
+    text-align: left;
+    padding: 50px;
+}
+
+.wallpaper-image {
+    width: 80%;
+    border-right: 4px solid #522258;
+    border-bottom: 4px solid #522258;
+    box-shadow: -2px -2px 5px 1px darkred;
+    transition: box-shadow 0.3s ease;
+}
+
+.wallpaper-image:hover {
+    box-shadow: -2px -2px 10px 1px #522258;
+}
+
+/* ABOUT US */
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.about-text {
+    text-align: justify;
+    margin: 5% 0;
+}
+
+.about-header h1 {
+    font-size: 2rem;
+    color: #522258;
+    text-shadow: 5px 5px 10px gray;
+    font-family: "Acme", sans-serif;
+}
+
+.about-text p {
+    font-size: 22px;
+    margin-left: 10%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.about-img {
+    width: 100%;
+    border-left: 4px solid #522258;
+    border-bottom: 4px solid #522258;
+    box-shadow: 2px -2px 5px 1px gray;
+    transition: box-shadow 0.3s ease;
+}
+
+.about-img:hover {
+    box-shadow: 2px -2px 10px 1px #522258;
+}
+
+/* OUR COURSES */
+
+.our-courses {
+    text-align: center;
+    background-color: #FFE4D6;
+    height: 105vh;
+}
+
+
+.courses-header {
+    margin-top: 2%;
+}
+
+.courses-header h1 {
+    font-size: 2rem;
+    color: #522258;
+    text-shadow: 5px 5px 10px gray;
+    font-family: "Acme", sans-serif;
+}
+
+.courses-div {
+    border: 4px solid #522258;
+    margin: 10%;
+    border-radius: 10px;
+    height: 70vh;
+    padding: 5%;
+    background: linear-gradient(45deg, 
+        #EB3678, #FB773C);
+    box-shadow: 2px 2px 5px 1px gray;
+    transition: box-shadow 0.3s ease;
+}
+
+.courses-div:hover {
+    box-shadow: 2px 2px 10px 1px #522258;
+}
+
+.courses-div h2 {
+    color: #522258;
+    text-shadow: 5px 5px 10px gray;
+    font-family: "Acme", sans-serif;
+}
+
+.courses-div p {
+    font-size: 16px;
+    text-align: justify;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px #522258;
+}
+
+.course-img {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 4%;
+    box-shadow: 2px 2px 5px 1px black;
+    transition: box-shadow 0.3s ease;
+}
+
+.course-img:hover {
+    box-shadow: 2px 2px 10px 1px #522258;
+}
+
+.courses-button {
+    margin: 0 10%;
+}
+
+.courses-button button {
+    padding: 15px 35px;
+    margin-top: 10%;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #522258;
+    color: #D0B8A8;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    box-shadow: 2px 2px 5px 1px #522258;
+    font-family: "Oswald", sans-serif;
+}
+
+.courses-button button:hover {
+    background-color: #EB3678;
+    color: #522258;
+    border: 2px solid #522258;
+    cursor: pointer;
+}
+
+/* OUR TEAM */
+
+.our-team {
+    height: 105vh;
+}
+
+.team-header {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.team-header h1 {
+    font-size: 2rem;
+    color: #522258;
+    text-shadow: 5px 5px 10px gray;
+    font-family: "Acme", sans-serif;
+}
+
+.team-text {
+    border-bottom: 4px dotted #522258;
+    border-right: 4px dotted #522258;
+    padding: 2%;
+    box-shadow: -2px -2px 5px 1px darkgray;
+}
+
+.team-text p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.team-img {
+    text-align: center;
+    padding: 5%;
+}
+
+.team-img img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 3px darkgray;
+    transition: box-shadow 0.3s ease;
+}
+
+.team-img img:hover {
+    box-shadow: 2px 2px 10px 1px #522258;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: #FFE4D6;
+}
+
+.contact-header {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.contact-header h1 {
+    font-size: 2rem;
+    color: #522258;
+    text-shadow: 5px 5px 10px gray;
+    font-family: "Acme", sans-serif;
+}
+
+.contact-form {
+    border: 4px solid #522258;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2% 5%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 1px gray;
+    background: linear-gradient(45deg, 
+        #EB3678, #FB773C);
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+    box-shadow: 2px 2px 10px 1px #522258;
+}
+
+.contact-form h2 {
+    font-weight: 100;
+    margin-top: 5%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #522258;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid #B0C5A4;
+    box-shadow: 2px 2px 5px 1px black;
+}
+
+.contact-form input:focus {
+    border: 3px solid #FB773C;
+    box-shadow: 2px 2px 10px 1px #522258;
+}
+
+.contact-form button {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #522258;
+    color: #D0B8A8;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    box-shadow: 2px 2px 5px 1px #522258;
+    font-family: "Oswald", sans-serif;
+}
+
+.contact-form button:hover {
+    background-color: #EB3678;
+    color: #522258;
+    border: 2px solid #522258;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 9vh;
+    background: linear-gradient(30deg, #522258, #C63C51);
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 21px;
+}
+
+.footer-copyright i {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+@media screen and (max-width: 1290px) {
+    .wallpaper-intro h1 {
+        font-size: 27px;
+    }
+    
+    .wallpaper-secondary-image {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .courses-div p {
+        font-size: 14px;
+    }
+    
+    .courses-div {
+        height: 75vh
+    }
+    
+    .courses-div button {
+        font-size: 14px;
+    }
+    
+    .team-text {
+        margin-bottom: 5%;
+    }
+    
+    .our-team {
+        height: 120vh;
+    }
+    
+    .team-header {
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .team-text {
+        margin-bottom: 5%;
+    }
+    .team-text p {
+        font-size: 18px;
+    }
+    .courses-div p {
+        font-size: 13px;
+    }
+    
+    .courses-div button {
+        font-size: 15px;
+    }
+    
+    .courses-div {
+        height: 75vh;
+    }
+    
+}
+
+@media screen and (max-width: 825px) {
+    .col-3,
+    .col-4,
+    .col-6 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container {
+        height: 200vh;
+    }
+    
+    .wallpaper-nav {
+        height: 103vh;
+    }
+    
+    .wallpaper-intro {
+        text-align: center;
+    }
+    
+    .wallpaper-image {
+        width: 100%;
+    }
+    
+    .wallpaper-line {
+        display: none;
+    }
+    
+    /* HAMBURGER MENU */
+    
+    .nav-links ul {
+        display: none; /* Hidden by default in mobile view */
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 100%; /* Position right below the navbar */
+        left: 0;
+        background: linear-gradient(30deg, #522258, #C63C51);
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links ul.show {
+        display: flex;
+    }
+
+    .nav-links ul li {
+        margin: 0;
+        padding: 10px 20px; /* Add padding for better spacing */
+        width: 100%;
+    }
+
+    .nav-links ul li a {
+        display: block;
+        width: 100%;
+        margin-left: 3%;
+    }
+    
+    /* -------------- */
+    
+    .nav-link {
+        display: none;
+    }
+    
+    .myCol {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .myCol4 {
+        order: -1;
+    }
+    
+    .myCol4Extra {
+        padding-top: 100px;
+    }
+    
+    .my-image {
+        max-width: 400px;
+        margin: auto;
+        display: block;
+    }
+    
+    .wallpaper-image {
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    
+    .wallpaper-intro {
+        padding-top: 0;
+    }
+    
+    .wallpaper-intro h1 {
+        font-size: 25px;
+    }
+    
+    .about-us {
+        height: 115vh;
+        padding: 10% 0;
+    }
+    
+    .about-text {
+        padding: 0 7%;
+    }
+    
+    .about-text p {
+        margin: 0;
+        margin-bottom: 10%;
+    }
+    
+    .our-courses {
+        height: 305vh;
+        padding: 10% 0;
+    }
+    
+    .courses-div {
+        height: 67vh;
+        max-width: 350px;
+        margin: 10% auto;
+    }
+    
+    .courses-div p {
+        font-family: "Gupter", serif;
+        font-size: 17px;
+    }
+    
+    .our-team {
+        height: 275vh;
+        padding: 10% 0;
+    }
+    
+    .team-text {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    
+    .contact {
+        height: 75vh;
+        padding: 10% 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-us {
+        height: 145vh;
+    }
+    
+    .our-courses {
+        height: 285vh;
+    }
+    
+    .our-team {
+        height: 230vh;
+    }
+    
+    .about-text p {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about-us {
+        height: 125vh;
+    }
+    
+    .our-courses {
+        height: 265vh;
+    }
+    
+    .our-team {
+        height: 210vh;
+    }
+}
+
+/* Desktop view reset */
+@media (min-width: 826px) {
+    .nav-links ul {
+        display: flex !important; /* Ensure links are always visible on desktop */
+        flex-direction: row;
+        position: static; /* Reset position */
+    }
+    
+    .nav-links ul li {
+        margin-left: 20px;
+        padding: 0; /* Remove mobile-specific padding */
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

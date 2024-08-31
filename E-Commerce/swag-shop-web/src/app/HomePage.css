@@ -1,0 +1,136 @@
+.wallpaper {
+    height: 90vh;
+    background: linear-gradient(45deg, #3795BD, #F7F7F8);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper-intro h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+}
+
+.wallpaper-intro {
+    text-align: right;
+    max-width: 32%;
+}
+
+.wallpaper-intro p {
+    font-family: "Kanit", sans-serif;
+    font-size: 19px;
+}
+
+.about-us {
+    padding: 50px;
+    height: 100vh;
+    background-color: #D1E9F6;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.about-us p {
+    font-family: "Kanit", sans-serif;
+    text-align: justify;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: 23px;
+}
+
+.about-us img {
+    max-width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 20%;
+    border-radius: 15px;
+}
+
+.carousel-section {
+    background-color: #96C9F4;
+    height: 100vh;
+    text-align: center;
+}
+
+.carousel-section h2 {
+    margin-top: 3%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.carousel-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-div {
+    width: 40%;
+}
+
+.carousel-prod {
+    margin: 20px auto;
+    display: block;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card.product {
+    border-radius: 15px;
+}
+
+.btn {
+    margin: 8px;
+    width: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wallpaper-intro {
+        text-align: center;
+        max-width: 70%;
+    }
+
+    .wallpaper-intro h1 {
+        font-size: 40px;
+    }
+
+    .wallpaper-intro p {
+        font-size: 17px;
+    }
+    .carousel-div {
+        width: 90%;
+    }
+
+    div.col-sm-6 {
+        display: block !important;
+        width: 100% !important;
+    }
+    
+    .about-us img {
+        display: block;
+        max-width: 80%;
+    }
+
+    .about-us-intro p {
+        color: black;
+        font-size: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-us {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us {
+        height: 170vh;
+    }
+}

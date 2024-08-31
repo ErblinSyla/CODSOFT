@@ -1,0 +1,7 @@
+# Ignore common directories
+/node_modules
+/build
+
+# Ignore environment and log files
+*.log
+*.env
