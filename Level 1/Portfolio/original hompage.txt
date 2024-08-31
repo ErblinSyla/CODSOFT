@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Erblin's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wallpaper-nav">
+        <nav>
+            <ul class="navbar" id="navbar_id">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="projects.html" class="otherlinks">Projects</a></li>
+                <li><a href="certificates.html" class="otherlinks">Certificates</a></li>
+                <li><a href="contact.html" class="otherlinks">Contact</a></li>
+                <li class="hamburger"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="image">
+                        <div class="wallpaper-text">
+                            <h1 class="wallpaper-header">Welcome to My Portfolio</h1>
+                            <h2 class="wallpaper-paragraph"><b>Explore my projects and skills in software development.</b></h2>
+                            <button class="btn">Get In Touch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="profile">
+                        <img class="profile-img reveal" src="img/profile.jpg">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="profile-text">
+                        <div>
+                            <h2 class="reveal">Hello there fellow visitor</h2>
+                            <p class="reveal">I am Erblin Syla, a passionate programmer from Kosova dedicated to crafting clean, efficient code and solving complex problems with a creative approach. With a strong foundation in <b>HTML, CSS, JavaScript, PHP, C++, C#, WordPress and SQL, MySQL Database</b>, I thrive in collaborative environments where I can contribute my skills in Front-End Development, Web-Development, eCommerce, Game-Development and App-Development. I hold a deep fascination for the intersection of technology and innovation, constantly seeking new challenges to further expand my knowledge. Outside of coding, I find inspiration in electronics, gaming, leveraging their diverse perspectives to enrich my programming endeavors and approach challenges with creativity and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-skills">
+            <div class="row">
+                <div class="col-12">
+                    <div class="skills-header">
+                        <h1 class="reveal">Skills</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="skills-box reveal">
+                        <div>
+                            <input type="range" min="0" max="100" value="93" class="locked">
+                            <p>HTML: 93%</p>
+                            <input type="range" min="0" max="100" value="82" class="locked">
+                            <p>CSS: 82%</p>
+                            <input type="range" min="0" max="100" value="45" class="locked">
+                            <p>JavaScript: 45%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="skills-box reveal">
+                        <div>
+                            <input type="range" min="0" max="100" value="72" class="locked">
+                            <p>WordPress: 72%</p>
+                            <input type="range" min="0" max="100" value="68" class="locked">
+                            <p>C++: 68%</p>
+                            <input type="range" min="0" max="100" value="61" class="locked">
+                            <p>C#: 61%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="skills-box reveal">
+                        <div>
+                            <input type="range" min="0" max="100" value="74" class="locked">
+                            <p>WordPress: 74%</p>
+                            <input type="range" min="0" max="100" value="59" class="locked">
+                            <p>SQL: 59%</p>
+                            <input type="range" min="0" max="100" value="59" class="locked">
+                            <p>MySQL: 59%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-box reveal">
+                        <div class="footer-align">
+                            <h2>Contact Info</h2>
+                            <p><b>Email:</b> <i>erblin.sylaa@gmail.com</i></p>
+                            <p><b>Phone Number:</b> <i>+383 44 801 804</i></p>
+                            <p><b>Location:</b> <i>Rr. Dardania, Apollonia A20</i></p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-box reveal">
+                        <div class="footer-align">
+                            <h2>Social Media</h2>
+                            <p><b>Facebook:</b> <a href="#">h</a></p>
+                            <p><b>Instagram:</b> <a href="#">h</a></p>
+                            <p><b>LinkedIn:</b> <a href="#">h</a></p>
+                            <p><b>GitHub:</b> <a href="#">h</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-box reveal">
+                        <div class="footer-align">
+                            <h2>Navigation</h2>
+                            <p><a href="index.html"><b>Home</b></a></p>
+                            <p><a href="projects.html"><b>Projects</b></a></p>
+                            <p><a href="certificates.html"><b>Certificates</b></a></p>
+                            <p><a href="contact.html"><b>Contact</b></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">
+                        <h6>© 2024 Erblin Syla</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <script>
+            
+            function myFunction() {
+                var x = document.getElementById("navbar_id");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+            
+            window.addEventListener('scroll', reveal);
+            
+            function reveal() {
+                var reveals = document.querySelectorAll('.reveal');
+                
+                for(var i = 0; i < reveals.length; i++) {
+                    
+                    var windowheight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 150;
+                    
+                    if(revealtop < windowheight - revealpoint) {
+                        reveals[i].classList.add('active');
+                    }
+                }   
+            }
+
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
