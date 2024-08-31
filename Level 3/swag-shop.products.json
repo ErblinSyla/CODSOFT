@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "66cef9f9f703e58262c402ed"
+  },
+  "title": "Apex Computer",
+  "price": 1499.99,
+  "imgUrl": "https://vardhamancomputers.in/storage/2023/10/311mt.webp",
+  "description": "The Apex Computer X1 Series is a high-performance desktop designed for professionals and power users. Featuring the latest Intel Core processors, fast SSD storage, and advanced NVIDIA graphics, it delivers exceptional speed and multitasking capabilities. Ideal for demanding tasks, the X1 Series combines power, reliability, and a sleek design, making it perfect for both work and entertainment.",
+  "category": "Computer"
+},
+{
+  "_id": {
+    "$oid": "66d32337a37e0233482710bc"
+  },
+  "title": "Lenovo Laptop",
+  "price": 799.99,
+  "imgUrl": "https://www.jbhifi.com.au/cdn/shop/files/749947-Product-0-I-638526279649085351_b6a6d57b-f59d-47c7-a8d0-4de91aaf0829.jpg?v=1718771834",
+  "category": "Laptop",
+  "description": "The Lenovo Gaming Laptop delivers top-tier performance with a powerful processor and dedicated NVIDIA/AMD graphics, ensuring smooth gameplay and stunning visuals. Its high-refresh-rate display and advanced cooling system are designed for intense gaming sessions, while the backlit RGB keyboard adds a customizable touch. With ample SSD storage and a sleek, durable design, this laptop is built to handle the latest games and multitasking with ease. Ideal for serious gamers, it combines power, style, and versatility in one impressive package."
+},
+{
+  "_id": {
+    "$oid": "66d323b9a37e0233482710bd"
+  },
+  "title": "Samsung TV",
+  "price": 599.99,
+  "imgUrl": "https://puresolutions.ma/wp-content/uploads/2021/09/UA43T5300AUXMV-247x247.jpg",
+  "category": "TV",
+  "description": "The Samsung TV offers a superior viewing experience with its stunning 4K Ultra HD resolution, delivering crystal-clear images and vibrant colors. Powered by Samsung's advanced picture technology, it ensures deep contrasts and true-to-life visuals, making every scene come to life. The TV features smart capabilities with built-in streaming apps, voice control, and seamless connectivity to other devices, providing a modern, intuitive user experience. Its sleek, slim design blends effortlessly into any living space, offering both aesthetic appeal and exceptional performance."
+},
+{
+  "_id": {
+    "$oid": "66d32482a37e0233482710be"
+  },
+  "title": "Das Keyboard",
+  "price": 59.99,
+  "imgUrl": "https://www.daskeyboard.com/images/das-keyboard-6-professional/6-pro-top-view.jpeg",
+  "category": "Keyboard",
+  "description": "The Das Keyboard is a premium mechanical keyboard designed for those who demand precision, durability, and a satisfying typing experience. It features high-quality mechanical switches that offer tactile feedback and fast response times, making it ideal for both typing and gaming. The keyboard's build is robust, with a sleek, minimalist design that includes customizable RGB lighting or classic monochrome backlighting. With features like N-key rollover, dedicated media controls, and a durable aluminum top panel, the Das Keyboard combines functionality, style, and reliability, making it a top choice for professionals and enthusiasts alike."
+},
+{
+  "_id": {
+    "$oid": "66d324f0a37e0233482710bf"
+  },
+  "title": "Logitech Headset",
+  "price": 144.99,
+  "imgUrl": "https://m.media-amazon.com/images/I/61jBnY6paeL.jpg",
+  "category": "Headset",
+  "description": "The Logitech headset is engineered for clear, immersive audio, whether you're gaming, working, or enjoying media. It features high-quality drivers that deliver rich sound with deep bass and crisp highs, ensuring you catch every detail. The headset is designed for comfort, with plush ear cushions and an adjustable headband for long listening sessions. Equipped with a noise-canceling microphone, it ensures clear communication, filtering out background noise. With easy-to-use controls and durable construction, the Logitech headset is a reliable choice for both casual users and professionals looking for quality audio and comfort."
+},
+{
+  "_id": {
+    "$oid": "66d325ae1ec158dfdf2710bc"
+  },
+  "title": "Razer Mouse",
+  "price": 45.99,
+  "imgUrl": "https://target.scene7.com/is/image/Target/GUEST_d06c7d69-046f-4de8-8cf2-29fe0e4fa76a?wid=488&hei=488&fmt=pjpeg",
+  "category": "Mouse",
+  "description": "The Razer mouse is a high-performance gaming mouse designed for precision and speed, ideal for competitive gamers. It features a high-DPI optical sensor that provides accurate tracking and responsiveness, allowing for quick and precise movements during gameplay. The mouse's ergonomic design ensures comfort during extended gaming sessions, with customizable buttons and RGB lighting that can be tailored to your preferences. Built with durable materials and advanced technology, the Razer mouse offers reliability and performance, making it a top choice for gamers who demand the best in their gear."
+},
+{
+  "_id": {
+    "$oid": "66d3260a1ec158dfdf2710bd"
+  },
+  "title": "LG Monitor",
+  "price": 244.99,
+  "imgUrl": "https://i5.walmartimages.com/asr/1f8fd0f6-3ac5-4323-b22a-50c536f37fc9.28efbf1acca8ed3cdb56d474007ce46b.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "category": "Monitor",
+  "description": "The LG monitor delivers exceptional visual clarity with its vibrant display, making it perfect for work, gaming, and multimedia. Featuring high-resolution options like 4K Ultra HD or QHD, it offers sharp, detailed images with accurate color reproduction, thanks to advanced IPS or OLED panels. The monitor's sleek design includes ultra-thin bezels and adjustable stands for a clean, ergonomic setup. With features like AMD FreeSync, high refresh rates, and multiple connectivity options, the LG monitor ensures smooth performance and versatility, catering to both productivity and entertainment needs."
+}]
