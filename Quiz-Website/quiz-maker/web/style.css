@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, serif;
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: #F5EDED;
+}
+
+.nav-fluid {
+    background: linear-gradient(20deg, #0D7C66, #BDE8CA);
+    width: 60%;
+    margin-left: 0;
+}
+
+.navbar {
+    background: linear-gradient(20deg, #0D7C66, #BDE8CA);
+    height: 8vh;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.3s ease color;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #28475C;
+}
+
+.navbar-brand {
+    color: wheat;
+    transition: 0.3s ease color;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: #28475C;
+}
+
+/* LOGIN PAGE */
+
+.login-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EDED;
+}
+
+.login-form {
+    width: 35%;
+    display: block;
+    margin: auto;
+    padding: 60px;
+    min-height: 60vh;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+.login-form .login-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login-header h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.login-form h3 {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.form {
+    padding: 0 20px;
+}
+
+.form .input {
+    width: 100%;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.form .input:focus {
+    border: 3px solid red;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: #41B3A2;
+    transition: 0.3s ease background-color;
+}
+
+.btn:hover {
+    background-color: #BDE8CA;
+}
+
+.form .login-btn {
+    margin: 40px auto 0;
+    display: block;
+    transition: 0.3s ease background-color;
+}
+
+.form .login-btn:hover {
+    cursor: pointer;
+    background-color: #BDE8CA;
+}
+
+.form .login-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.form .login-text a {
+    text-decoration: none;
+    color: #41b3a2;
+    transition: 0.3s ease color;
+}
+
+.form .login-text a:hover {
+    color: #4A249D;
+}
+
+.alert {
+    text-align: center;
+}
+
+
+
+/* REGISTER */
+
+.register-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EDED;
+}
+
+.register-form {
+    width: 35%;
+    display: block;
+    margin: auto;
+    padding: 60px;
+    min-height: 60vh;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+.register-form .register-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.register-header h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.register-form h3 {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.form {
+    padding: 0 20px;
+}
+
+.form input {
+    width: 100%;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.form input:focus {
+    border: 2px solid red;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: #41B3A2;
+    font-size: 17px;
+    border: 1px solid green;
+}
+
+.form .register-btn {
+    margin: 40px auto 0;
+    display: block;
+    transition: 0.3s ease background-color;
+}
+
+.form .register-btn:hover {
+    cursor: pointer;
+    background-color: #BDE8CA;
+}
+
+.form .register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.form .register-text a {
+    text-decoration: none;
+    color: #41b3a2;
+    transition: 0.3s ease color;
+}
+
+.form .register-text a:hover {
+    color: #4A249D;
+}
+
+/* QUIZ LIST */
+
+.quiz-div {
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-list {
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    min-height: 80vh;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.quiz-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.quiz-header h2 {
+    font-weight: bolder;
+}
+
+.quizes {
+    text-align: center;
+}
+
+.quizes a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #84C69B;
+    transition: 0.3s ease color;
+}
+
+.quizes a:hover {
+    color: #28475C;
+}
+
+.quizes div {
+    margin-top: 15px;
+}
+
+.noquiz-text {
+    text-align: center;
+    font-size: 19px;
+    color: red;
+}
+
+.quiz-build {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.quiz-build input {
+    width: 100%;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.quiz-build input:focus {
+    border: 3px solid red;
+}
+
+.quiz-build h5 {
+    margin-top: 15px;
+}
+
+.save-btn {
+    margin: auto;
+    display: block;
+}
+
+.btn-danger {
+    margin-top: 10px;
+    padding: 5px 25px;
+    transition: 0.3s ease background-color;
+}
+.btn-danger:hover {
+    cursor: pointer
+}
+
+.submit-btn {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.score-list {
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    padding: 60px;
+    min-height: 30vh;
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.score-list h2 {
+    font-weight: bold
+}
+
+.score-list p {
+    font-size: 22px;
+}
+
+.score-list a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #84C69B;
+    transition: 0.3s ease color;
+}
+
+.score-list a:hover {
+    color: #28475C;
+}
+
+@media screen and (max-width: 1000px) {
+    .login-form {
+        width: 50%;
+    }
+    
+    .register-form {
+        width: 50%;
+    }
+    
+    .quiz-list {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .login-form {
+        width: 80%;
+    }
+    
+    .register-form {
+        width: 80%;
+    }
+    
+    .quiz-list {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
